@@ -6,9 +6,13 @@ step2-->type in cmd/terminal
         git init -- (this is a git command)
 step3-->git add . (intrminal/cmd)
         this (add .) command indicate current file
-step3-->git commit -m "type some message"
+step4-->git commit -m "type some message"
         this command for commit your file into git and -m is write some message
-step4-->git remote add origin https://github.com/username/repo.git
+step5-->git remote add origin https://github.com/username/repo.git
         this command is redirect to your github repositary account
-step5-->git push -u origin main
+step6-->git push -u origin main
         this commandfor used to push your code into github.
+step7-->git status
+        this command for check some more fole added or modified
+        if added/modified then update your github 
+stpe8-->follow step3,step4,step6 (if something update)

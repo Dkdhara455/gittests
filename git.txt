@@ -10,6 +10,9 @@ step4-->git commit -m "type some message"
         this command for commit your file into git and -m is write some message
 step5-->git remote add origin https://github.com/username/repo.git
         this command is redirect to your github repositary account
+
+        git remote add second https://github.com/YourUsername/second-repo-name.git
+
 step6-->git push -u origin main
         this commandfor used to push your code into github.
 step7-->git status

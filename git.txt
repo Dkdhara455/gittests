@@ -35,4 +35,10 @@ Edit
 git rm -r foldername/
 git commit -m "Deleted folder"
 git push
-create a branchforkjjnkjvkhabljhbvlhabsfvf
+    git branch
+------------------
+1.create a branch in github 
+2.push your branch (git checkout -b <branch-name>)
+3.git add . (.--> indicate current file)
+4.git commit -m "<passs the message>"
+5.git push origin <branch-name>

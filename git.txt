@@ -42,3 +42,14 @@ git push
 3.git add . (.--> indicate current file)
 4.git commit -m "<passs the message>"
 5.git push origin <branch-name> -- this is the git command
+   merge main + branch
+-------------------------
+git checkout feature-new
+git fetch origin
+git checkout main
+git pull origin main
+git checkout feature-new
+git merge main
+git add .
+git commit -m "Resolve merge conflicts from main"
+git push

@@ -19,3 +19,19 @@ stpe8-->follow step3,step4,step6 (if something update)
 
 step1 to step6 for used/help push your code into github
 and step7 to step8 help to modified or update your code into github account 
+
+----for deleting----
+Delete the file locally and push:
+---------------------------------
+git rm filename.py
+git commit -m "Deleted filename.py"
+git push
+
+Same for folders:
+-----------------
+bash
+Copy
+Edit
+git rm -r foldername/
+git commit -m "Deleted folder"
+git push

@@ -23,6 +23,8 @@ stpe8-->follow step3,step4,step6 (if something update)
 step1 to step6 for used/help push your code into github
 and step7 to step8 help to modified or update your code into github account 
 
+remove origin main --> git remote remove origin
+
 ----for deleting----
 Delete the file locally and push:
 ---------------------------------

@@ -58,3 +58,5 @@ for deleting branch
 --------------------
 git branch -d feature-new(branch name)
 git push origin --delete feature-new(branch name)
+
+-------------------

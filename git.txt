@@ -3,7 +3,7 @@ create a new repositary in github
 in terminal goto your path -->c:\go\your\path
 step1-->install git in your device(if not installed)
 step2-->type in cmd/terminal
-        git init -- (this is a git command)
+        git init -- (this is a git command for initialisation)
 step3-->git add . (intrminal/cmd)
         this (add .) command indicate current file
 step4-->git commit -m "type some message"
@@ -13,6 +13,9 @@ step5-->git remote add origin https://github.com/username/repo.git
 
         git remote add second https://github.com/YourUsername/second-repo-name.git
 
+        (here create a main where i can push my code)
+        (for deleting--> git remote remove origin/second)
+        
 step6-->git push -u origin main
         this commandfor used to push your code into github.
 step7-->git status

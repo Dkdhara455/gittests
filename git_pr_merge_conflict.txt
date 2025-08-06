@@ -1,0 +1,33 @@
+->Choose your GitHub account
+->git clone https://github.com/your-username/your-repo.git
+  (create a file of your github repo)
+->cd Spoon-Knife
+->git remote add upstream https://github.com/octocat/Spoon-Knife.git
+  (Add the Original Repo as Upstream)
+->git remotee -v (for verify)
+->do some changes in your file (any file)
+->git add <file-name> (those file chaged) or got add . 
+->git commit -m "<write your message>"
+->git push origin main (push your code in metioned git-repo)
+
+  **raise a pull requests(pr)** (follow the steps)
+--------------------------------------------------
+->goto your github repo
+->click "compare & pull request"
+->add a title and description.
+->click create pull request.
+
+  Create a Merge Conflict
+---------------------------
+(in terminal/cmd)
+->git fetch upstream 
+->git checkout main (for indicate main repo)
+->git merge upstream/main (merge upstream with main)
+
+manualy chenge your code 
+->git add and git commit
+->git push origin main
+
+go-to your git-repo see the comparision (inside pull requests)
+
+[for practice do again and again]
